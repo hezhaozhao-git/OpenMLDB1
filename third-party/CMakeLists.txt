@@ -211,3 +211,7 @@ endif()
 if (BUILD_BUNDLED_ROCKSDB)
   include(FetchRocksDB)
 endif()
+
+if (BUILD_BUNDLED_NLOHMANNJSON)
+  include(FetchNlohmannJson)
+endif()
